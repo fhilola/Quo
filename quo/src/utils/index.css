@@ -1,7 +1,5 @@
 button{
-    width: 114.46px;
-    height: 42.958px;
-    flex-shrink: 0;
+    padding: 10px 26px;
     border-radius: 5px;
     background: #6C60FE;
     color: #FFF;

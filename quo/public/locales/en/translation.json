@@ -1,5 +1,10 @@
 {
-    "howitworks" : "How it works",
-    "business" : "Business",
-    "help" : "Help"
+    "navbar-menu" : [
+        "How it works",
+        "Business",
+        "Help"
+    ],
+    "hero_title" : "Experience the easier way for transaction",
+    "hero_info" : "Quo is the most easier way for transaction with your friends and family, now matter where are you. An exceptional way for make your life one step easier",
+    "button" : "See how we work"
 }

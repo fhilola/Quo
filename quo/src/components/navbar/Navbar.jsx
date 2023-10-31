@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next'
 const Navbar = () => {
     const {t} = useTranslation();
     const {i18n} = useTranslation();
+    const navbarMenu = t('navbar-menu', { returnObjects: true })
     function handleLanguage(e){
         i18n.changeLanguage(e.target.value)
     }
@@ -26,9 +27,11 @@ const Navbar = () => {
                         <option value="ru">RU</option>
                     </select>
                     <ul>
-                        <li>{t('howitworks')}</li>
-                        <li>{t('business')}</li>
-                        <li>{t('help')}</li>
+                        {
+                            navbarMenu.map((item, index) => 
+                            <li key={index}>{item}</li>
+                            )
+                        }
                     </ul>
                 </div>
                 <div className='auth'>
@@ -40,5 +43,4 @@ const Navbar = () => {
     </Container>
   )
 }
-
 export default Navbar

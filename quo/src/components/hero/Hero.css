@@ -1,0 +1,22 @@
+.hero__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    max-width: 1640px;
+    height: 710px;
+    margin-top: 69px;
+background: rgba(108, 96, 254, 0.05);
+}
+.hero__wrapper p{
+    max-width: 1100px;
+    margin: 20px 0 40px 0;
+}
+.hero__wrapper h1{
+    color: #09053F;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 90px;
+font-weight: 700;
+}

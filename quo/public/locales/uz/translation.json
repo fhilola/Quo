@@ -1,4 +1,10 @@
 {
-    "howitworks" : "ishlash",
-    "business" : "biznes"
+    "navbar-menu" : [
+        "Ishan qoidalari",
+        "Biznes",
+        "Yordam"
+    ],
+    "hero_title" : "Ishonchli xaridlar uchun",
+    "hero_info" : "Quo - do'stlaringiz va oilangiz bilan tranzaksiya qilishning eng oson usuli, endi qayerda bo'lishingizdan qat'i nazar. Hayotingizni bir qadam osonlashtirishning ajoyib usuli",
+    "button" : "Biz qanday ishlaymiz"
 }
