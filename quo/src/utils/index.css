@@ -8,4 +8,25 @@ button{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 500;
+    border: none;
+}
+p{
+    color: rgba(10, 2, 19, 0.50);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 48px; 
+}
+h2{
+    color: #000;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 60px;
+font-weight: 600;
+line-height: 85px;
+}
+.container{
+    max-width: 1640px;
+    margin: 0 auto;
+    padding: 0 20px;
 }

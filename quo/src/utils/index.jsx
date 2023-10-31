@@ -4,8 +4,21 @@ const Button = ({text}) => {
     <button>{text}</button>
   )
 }
-const Description = ()=>{
+const Description = ({text})=>{
   return(
-    <p></p>
+    <p>{text}</p>
   )
 }
+const Title = (text)=>{
+  return(
+    <h2>{text}</h2>
+  )
+}
+const Container = ({children}) => {
+  return (
+    <div className="container">
+      {children}
+    </div>
+  )
+}
+export {Button, Description, Title, Container}
