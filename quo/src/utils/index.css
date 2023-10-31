@@ -1,0 +1,11 @@
+button{
+    width: 114.46px;
+    height: 42.958px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #6C60FE;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
